@@ -1,0 +1,31 @@
+.record-item {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr;
+  padding: 12px 20px;
+  border-bottom: 1px solid #eaeaea;
+  transition: background-color 0.2s;
+}
+
+.record-item:hover {
+  background-color: #f9f9f9;
+}
+
+.record-id,
+.record-name,
+.record-description {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.record-id {
+  color: #666;
+}
+
+.record-name {
+  font-weight: 500;
+}
+
+.record-description {
+  color: #333;
+}
